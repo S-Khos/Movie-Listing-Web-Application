@@ -1,13 +1,4 @@
-# Lab 07-10
-
-The starter code for lab 07-10.
-
-
-## Overview
-
-Let's create a movie information website, which provides a list of showtimes, provides information about the movies, and allows users to purchase tickets online.
-
-_**Note:** This lab is designed to take 4 weeks, and is divided into four parts.  Each of the four parts is worth the weight of one lab assignment (3% each).  It is recommended that you do the OMDB web service content in the first week, the client page for the showtimes in the second week, the web service (server side) for the showtimes in the third week, and finally the ticket purchase system in the fourth week._
+movie information website, which provides a list of showtimes, provides information about the movies, and allows users to purchase tickets online.
 
 
 ## Part 1 - An OMDB Client
@@ -134,51 +125,3 @@ After the data has been successfully been inserted into the `purchases` table in
 ![the ticket purchase confirmation page](documentation_images/confirmation.png)
 
 _Figure 7 - The ticket purchase confirmation page_
-
-Sample code for using the `qrcode` package is given, below:
-
-```
-QRCode.toFile('/path/to/file.png', 'text to be encoded', {
-    width: 500
-}, function (err) {
-    if (err) throw err
-});
-```
-
-_**Note:**  As an alternative to Pug, it is also possible to use Vue.js, React, Angular, or another templating engine.  As usual, if you choose to use one of these alternatives, you are accepting the responsibility of environment setup, support, and learning the framework on your own._
-
-
-## Need Extra Challenge?
-
-If this was too easy, and you want some additional practice, try out one or more of the following extra features for increased learning:
-
-1. Re-organize the database in part 3 to use two separate collections.  One (`films`) will store the movie details, and the other (`showtimes`) will only related the `id` with the date, showtimes, and location.  The functionality will be the same, but the database will be more realistic.
-2. Create a page that allows administrators to add additional films (with or without the image) to the database.
-3. After tickets have been ordered, in part 4, send the user a confirmation E-Mail with their confirmation number and totals.
-
-
-## Getting Help
-
-If you run into difficulty, you may wish to check out some of the following resources:
-
-- https://developer.mozilla.org/en-US/docs/Learn/HTML - Tutorials and reference documentation for HTML by the Mozilla Developer Network (MDN)
-- https://developer.mozilla.org/en-US/docs/Learn/CSS - Tutorials and reference documentation for CSS by the Mozilla Developer Network (MDN)
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript - Tutorials and reference documentation for JavaScript by the Mozilla Developer Network (MDN)
-- https://www.w3schools.com/ - Tutorials for HTML, CSS, JavaScript, and jQuery by the W3Schools group
-- https://learn.jquery.com/ - Tutorial for jQuery, by the jQuery team
-- https://nodejs.org/en/docs/guides/ - A guide for Node.js, by the Node team.
-- https://www.npmjs.com/package/mongoose - A Node.js package for working with a MongoDB database
-- https://www.npmjs.com/package/sqlite3 - A Node.js package for working with an SQLite database
-- https://www.npmjs.com/package/body-parser - A Node.js package for processing POST data
-- https://www.npmjs.com/package/pug - A Node.js package providing support for the Pug templating system
-- https://pugjs.org/api/getting-started.html - Documentation for the Pug templating system
-- https://www.npmjs.com/package/qrcode - A Node.js package for producing QR codes
-- https://www.npmjs.com/package/uuid - A Node.js package for producing globally-unique identifiers
-- http://stackoverflow.com/ - A forum for asking questions about programming.  I bet you know this one already!
-
-Of course, you can always ask the TA for help!  However, learning how to find the answers out for yourself is not only more satisfying, but results in greater learning as well.
-
-
-## How to Submit
-
-Create your code inside this folder, commit, and then push your code to this repository to submit your lab assignment.
