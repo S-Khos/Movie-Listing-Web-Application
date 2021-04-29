@@ -1,0 +1,19 @@
+doctype 
+html
+    head 
+        title Confirmation
+        link(rel="stylesheet", href="styles/main.css")
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        nav(class="navbar is-danger" id="nav")
+            div(class="navbar-brand" id="navbarLogo")
+                h1(class="name") Purchase Confirmed
+                h1(class="motto") This is all there is to do!
+
+        div(class="container", id="conf_container")
+            h1(id="confirm_msg") Your ticket has been purchased.
+            h2 Confirmation number: #{id}
+            img(src="../qrcode/qr.png")

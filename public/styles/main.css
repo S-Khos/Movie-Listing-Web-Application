@@ -1,0 +1,171 @@
+#nav{
+    height: 12rem !important;
+}
+
+#nav .navbar-brand{
+    display: block;
+    margin: auto;
+    margin-left: 15rem !important;
+    font-size: 170%;
+}
+
+#nav .navbar-brand .name{
+    font-size: 200%;
+}
+
+.field{
+    display: flex;
+}
+
+.label{
+    float: right;
+    margin-top: .4rem;
+}
+
+.input{
+    width: 27rem !important;
+    
+}
+.inputHolder{
+    width: 23rem;
+}
+.labelHolder{
+    margin-left: auto;
+    height: auto;
+    margin-right: 1rem !important;
+}
+.movieForm{
+    width: 30rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#container{
+    display: flex;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+#rateHolder{
+    display: flex;
+}
+
+#poster{
+    width: 15rem;
+    height: 20rem;
+    margin-left: 10rem;
+}
+#rating{
+    margin-right: .3rem;
+    height: 2.5rem;
+    width: 2.0rem;
+}
+
+.hidden{
+    display: none;
+}
+
+#showlist{
+    margin: auto;
+}
+
+#search-form #dropdown #dropButton{
+    width: 11rem !important;
+}
+#search-form #date{ 
+    width: 11rem !important;
+}
+
+#input_tk{
+    width: 12rem !important;
+    margin-bottom: 1rem !important;
+}
+
+#ticket_container{
+    display: block !important;
+}
+
+#search-form .input-field{
+    margin-left: .5rem;
+}
+#date-field input{
+    margin-left: auto !important;
+}
+
+#submit-button{
+    float: right !important;
+    width: 11rem !important;
+}
+
+#tableHolder{
+    margin-top: 5rem !important;
+}
+#table{
+    font-size: 120%;
+}
+.search{
+    margin: auto;
+    margin-top: 5rem !important;
+    border: 1px black solid !important;
+    padding: 1rem;
+    width: 20rem;
+    height: fit-content;
+}
+#ticket_con{
+    margin-top: 5rem !important;
+}
+#table tr:hover{
+    background-color: rgba(255, 122, 122, 0.824);
+}
+
+#ticket_container .label{
+    text-align: right !important;
+}
+
+#ticket_container{
+   display: grid !important;
+   grid-template-columns: 1fr 2fr;
+   grid-column-gap: 2rem;
+   grid-row-gap: 1rem;
+   width: fit-content;
+   margin: auto !important;
+}
+
+#ticket_container .label {
+   grid-column: 1;
+}
+
+#ticket_container .control {
+   grid-column: 2;
+   height: 2rem;
+}
+
+#ticket_container .row1 {
+   grid-row: 1;
+}
+
+#ticket_container .row2 {
+   grid-row: 2;
+}
+
+#ticket_container .row3 {
+   grid-row: 3;
+}
+#ticket_container .row4 {
+    grid-row: 4;
+}
+#ticket_container .row5 {
+    grid-row: 5;
+}
+#ticket_container .row6 {
+    grid-row: 6;
+}
+
+#conf_container{
+    margin-top: 3rem !important;
+    font-size: 120%;
+}
+
+#confirm_msg{
+    font-weight: bold !important;
+}

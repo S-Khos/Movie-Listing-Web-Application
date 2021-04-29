@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css"/>
+    <!-- BULMA -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- JQUERY -->
+    <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js" integrity="sha512-C2RveGuPIWqkaLAluvoxyiaN1XYNe5ss11urhZWZYBUA9Ydgj+hfGKPcxCzTwut1/fmjEZR7Ac35f2aycT8Ogw==" crossorigin="anonymous"></script>
+    <!-- D3 -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./scripts/main.js"></script>
+    <title>Showtimes</title>
+</head>
+<body>
+    
+    <nav class="navbar is-danger" id="nav" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand" id="navbarLogo">
+            <h1 class="name">Showtimes</h1>
+            <h2 class="motto">Give me something to do!</h2>
+        </div>
+    </nav>
+
+    <div class="container" id="container">
+        <div class="search">
+        <form class="search-form" id="search-form">
+            <div class="field" id="location-field">
+                <div class="labelHolder">
+                    <label class="label">Location:</label>
+                </div>
+                <div class="input-field">
+                    <div class="select is-dark" id="location">
+                        <select>
+                            <option value="">Select Location</option>
+                            <option value="1">Oshawa Cinemas</option>
+                            <option value="2">Second Cinema</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field" id="date-field">
+                <div class="labelHolder">
+                    <label class="label">Date:</label>
+                </div>
+                <div class="input-field">
+                    <input class="input" value='' id="date" type="date" placeholder=""/>
+                </div>
+            </div>
+            <a class="button is-danger" id="submit-button">Search</a>
+        </form>
+            <div id="tableHolder">
+
+            </div>
+        </div>
+
+        <div class="showlist" id="showlist">
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

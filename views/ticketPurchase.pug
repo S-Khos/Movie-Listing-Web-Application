@@ -1,0 +1,55 @@
+doctype
+html
+    head 
+        title Buy Tickets
+        link(rel="stylesheet", href="styles/main.css")
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        nav(class="navbar is-danger" id="nav")
+            div(class="navbar-brand" id="navbarLogo")
+                h1(class="name") Buy Tickets
+                h1(class="motto") Let's do this!
+        div(class="container" id="ticket_con")
+            form(id="ticket_container" method="POST" action="/buyTicket")
+                label(class='label row1', for='title') Movie:
+                input(type='text',
+                        id='input_tk',
+                        name='title',
+                        value= title,
+                        readonly="readonly",
+                        class='control row1')
+
+                label(class='label row2', for='location') Location:
+                input(type='text',
+                    id='input_tk',
+                    name='location',
+                    value= location,
+                    readonly="readonly",
+                    class='control row2')
+
+                label(class='label row3', for='date') Date:
+                input(type='text',
+                    id='input_tk',
+                    name='date',
+                    value= date,
+                    readonly="readonly",
+                    class='control row3')
+
+                label(class='label row4', for='time') Time:
+                input(type='text',
+                    id='input_tk',
+                    name='time',
+                    value= time,
+                    readonly="readonly",
+                    class='control row4')
+
+                label(class='label row5', for='location') Quantity:
+                input(type='number',
+                    id='input_tk',
+                    name='quantity',
+                    class='control row5')
+
+                button(class='button is-danger row6 control') Purchase Ticket
