@@ -1,5 +1,5 @@
 window.onload = function(){
-    //http://www.omdbapi.com/?i=tt3896198&apikey=cb01017f
+  
     var imdb_id = 
         [   'Title',
             'Year',
@@ -11,7 +11,7 @@ window.onload = function(){
             'Plot',
             'Ratings',
         ];
-    var apiKey = 'cb01017f';
+    var apiKey = 'api key goes here';
 
     var locationVal;
     var date;
