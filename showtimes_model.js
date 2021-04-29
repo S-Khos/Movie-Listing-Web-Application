@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://shayan:webdev@cluster0.liyap.mongodb.net/movies?retryWrites=true&w=majority', {
+mongoose.connect('----MONGO STRING HERE-----', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, function(error) {
